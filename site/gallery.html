@@ -65,12 +65,14 @@ const descriptList = document.createElement("dl");
 // This is the description list
 glossary.forEach(item => {
     const dt = document.createElement("dt");
-    dt.textContent = entry.term;
+    dt.textContent = item.term;
     const dd = document.createElement("dd");
-    dd.textContent = entry.description;
+    dd.textContent = item.description;
     dl.appendChild(dt);
     dl.appendChild(dd);
 });
+main.appendChild(l1Heading);
+main.appendChild(descriptList);
 </script>
 </body>
 </html>

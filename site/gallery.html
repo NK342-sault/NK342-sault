@@ -69,10 +69,9 @@ glossary.forEach(item => {
     dt.textContent = item.term;
     const dd = document.createElement("dd");
     dd.textContent = item.description;
-    dl.appendChild(dt);
-    dl.appendChild(dd);
+    descriptList.appendChild(dt);
+    descriptList.appendChild(dd);
 });
-main.appendChild(l1Heading);
 main.appendChild(descriptList);
 </script>
 </body>

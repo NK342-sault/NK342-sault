@@ -11,6 +11,14 @@
         {
             term: "Guilty Gear Strive",
             description: "Guilty Gear Strive is a 2D fighting game known for its anime-style graphics and deep gameplay mechanics."
+        },
+        {
+            term: "Street Fighter V",
+            description: "Street Fighter V is a fighting game developed by Capcom, part of the long-running Street Fighter series."
+        },
+        {
+            term: "Mortal Kombat 11",
+            description: "Mortal Kombat 11 is a fighting game known for its brutal combat and iconic characters."
         }
 ]; 
 // Creating the main element and append it to the body

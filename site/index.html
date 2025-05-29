@@ -21,8 +21,6 @@
         <li><a href="glossary.html">Glossary</a></li>
       </ul>
     </nav><!--Found me!-->
-    <main>
-    </main>
   </header>
   <main>
     <section id="bio"
@@ -32,8 +30,26 @@
 <p>I love video games, especially fighting games like Dragon Ball Fighterz and Guilty Gear.</p>
 <p>Even though I like anime style games, my favourite fighting game of all time is Tekken, despite all of Harada's shenanigans.</p>
 
+
+  <section id="thumbnails-and-alternative-sizes">
+    <a href="images/myself.jpg">
+      <img src="images/myself.jpg" alt="Thumbnail of myself"
+      sizes="(max-width: 500px) 150px,(min-width: 501px) 300px"
+      srcset="images/thumbnail-150px.jpg, images/thumbnail-300px.jpg, images/myself.jpg">
+    </a>
+  </section>
+
+
+
+<section id="working-with-figures">
+  <figure>
 <h2>My Favourite Things</h2>
 <a href="https://seeklogo.com/vector-logo/450305/tekken-8"><img src="images/logo.png" alt="Tekken 8 Logo" width="140" height="20"></a>
+  <figcaption>Tekken 8 Logo</figcaption>
+  </figure>
+</section>
+
+
 
 <h3>Games</h3>
 <ol>
@@ -54,6 +70,19 @@ mizu no oto<br>
 
 </section>
 
+<section id="embedding-external-content">
+  <h3>Public Domain Audiobook</h3>
+  <audio controls>
+    <source src="https://librivox.org/the-shame-of-motley-by-rafael-sabatini/" type="audio/mpeg"> 
+  </audio> <br>
+  <a href="https://archive.org/compress/shameofmotley_2505_librivox/formats=64KBPS%20MP3&file=/shameofmotley_2505_librivox.zip">Download the audiobook</a>
+  <br><br>
+  <h3>Youtube Video</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IjgJBr2lVVM" 
+  title="YouTube Video" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen>
+  </iframe>
+</section>
+
 </main>
 
  <footer> 
@@ -68,6 +97,13 @@ mizu no oto<br>
       <p>&copy; 2025 <a href="mailto:nanabruku95@gmail.com?subject=Message%20from%20CSD112%20Website">Nana Bruku</a></p>
        <a href="◤" title="Back to top"></a>
        
+    <section id="working-with-image-support">
+      <picture>
+        <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml">
+        <source srcset="images/sc-logo/sc-logo.png 1x, images/sc-logo/sc-logo@1.5x.png 1.5x, images/sc-logo/sc-logo@2x.png 2x" type="image/png">
+        <img src="images/sc-logo/sc-logo.png" alt="Sault College Logo" width="70">
+      </picture>
+    </section>
   </footer> 
 </div>
 </body>

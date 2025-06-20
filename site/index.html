@@ -32,10 +32,10 @@
 
 
   <section id="thumbnails-and-alternative-sizes">
-    <a href="images/myself.jpg">
+    <a href="images/myself.jpg", target="_blank">
       <img src="images/myself.jpg" alt="Thumbnail of myself"
-      sizes="(max-width: 500px) 150px,(min-width: 501px) 300px"
-      srcset="images/thumbnail-150px.jpg, images/thumbnail-300px.jpg, images/myself.jpg">
+      sizes="(max-width: 500px) 150px, 300px"
+      srcset="images/thumbnail-150px.jpg 150w, images/thumbnail-300px.jpg 300w, images/myself.jpg">
     </a>
   </section>
 
@@ -74,12 +74,21 @@ mizu no oto<br>
   <h3>Public Domain Audiobook</h3>
   <audio controls>
     <source src="https://archive.org/download/shameofmotley_2505_librivox/shameofmotley_01_sabatini_64kb.mp3" type="audio/mpeg"> 
-  </audio> <br>
   <a href="https://archive.org/compress/shameofmotley_2505_librivox/formats=64KBPS%20MP3&file=/shameofmotley_2505_librivox.zip">Download the audiobook</a>
+  </audio> <br>
+
   <br><br>
+
   <h3>Youtube Video</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/IjgJBr2lVVM" 
-  title="YouTube Video" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen>
+  <iframe width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/IjgJBr2lVVM" 
+    title="YouTube Video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; picture-in-picture; clipboard-write; encrypted-media; gyroscope; 
+    web-share"
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
   </iframe>
 </section>
 
@@ -99,9 +108,10 @@ mizu no oto<br>
        
     <section id="working-with-image-support">
       <picture>
-        <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml">
-        <source srcset="images/sc-logo/sc-logo.png 1x, images/sc-logo/sc-logo@1.5x.png 1.5x, images/sc-logo/sc-logo@2x.png 2x" type="image/png">
-        <img src="images/sc-logo/sc-logo.png" alt="Sault College Logo" width="70">
+        <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml" width="70">
+        <img src="images/sc-logo/sc-logo.png" 
+        alt="Sault College Logo" 
+        srcset="images/sc-logo/sc-logo.svg 1x, images/sc-logo/sc-logo@1.5x.png 1.5x, images/sc-logo/sc-logo@2x.png 2x">
       </picture>
     </section>
   </footer> 

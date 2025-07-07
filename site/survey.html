@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" /> 
+<title>Nana Lab-1</title>
+<meta charset="UTF-8">
+<meta name="author" content="NK342-sault">
+<meta name="description" content="This is my second lab for CSD112. I talk about my love for gaming and give a haiku written by Matsuo Basho.">
+</head> 
+<body>
+<div class="width-wrap">
+  <header id="top">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav><!--Found me!-->
+  </header>
+<main>
+   <div id="creating-a-web-form">
+        <h1>Survey</h1>
+        <form action="https://formspree.io/f/mkgbgaqg" method="POST">
+            <p>
+              <label for="name">What is your name?<abbr title="required" aria-label="required">*</abbr> </label>
+            <input type="text" name="name_field" id="name_field" required>
+            </p>
+            <p>
+              <label for="email">What is your email? <abbr title="required" aria-label="required">*</abbr></label>
+            <input type="text" name="email_field" id="email_field" required>
+            </p>
+            <p>
+              <label for="number">Which whole number is best? </label>
+              <input type="number" name="best_whole_number" id="best_whole_number" min="0">
+            </p>
+            <p>
+              <label for="date">Which day is best?</label>
+              <input type="date" name="best_day" id="best_day">
+            </p>
+            <p>
+              <label for="drop down list">Which bear is best? <abbr title="required" aria-label="required">*</abbr></label>
+              <input type="dropdown" name="best_bear" id="best_bear" list="bears" required>
+              <datalist id="bears">
+                <option value=" ">
+                <option value="Black">
+                <option value="Brown">
+                <option value="Care">
+                <option value="Panda">
+                <option value="Polar">
+                <option value="Teddy">
+              </datalist> 
+            </p>
+            <fieldset>
+              <legend><label for="radio">Do you like radio buttons?</label></legend>
+              <ul>
+                <li>
+                  <input type="radio" name="enjoys_radio_buttons" id="yes" value="yes">
+                  <label for="yes">Yes</label>
+                </li>
+                <li>
+                <input type="radio" name="enjoys_radio_buttons" id="no" value="no">
+                <label for="no">No</label>
+                </li>
+                <li>
+                <input type="radio" name="enjoys_radio_buttons" id="?" value="?" checked>
+                <label for="noyb">None of your business</label>
+              </ul>
+            </fieldset>
+            <p>
+              <label for="text_field">What is the meaning of life? </label>
+              <textarea name="life" id="life_meaning" cols="50" rows="5" placeholder="Enter the correct answer here"></textarea>
+            </p>
+            <p>
+              <button>Send</button>
+            </p>
+        </form>
+   </div>
+</main>
+
+ <footer> 
+
+      <hr>
+
+      <blockquote>
+        Ima wa... tada mae ni susumu dake da!<br>
+        <cite class="author">- <span class="author">Jin Kazama</span></cite>
+      </blockquote>
+
+      <p>&copy; 2025 <a href="mailto:nanabruku95@gmail.com?subject=Message%20from%20CSD112%20Website">Nana Bruku</a></p>
+       <a href="◤" title="Back to top">◤</a>
+       
+         <section id="working-with-image-support">
+      <picture>
+        <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml">
+        <source srcset="images/sc-logo/sc-logo.png 1x, images/sc-logo/sc-logo@1.5x.png 1.5x, images/sc-logo/sc-logo@2x.png 2x" type="image/png">
+        <img src="images/sc-logo/sc-logo.png" alt="Sault College Logo" width="70">
+      </picture>
+    </section>
+  </footer> 
+</div>
+</body>
+</html>

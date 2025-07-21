@@ -40,4 +40,58 @@ dt::after {
 
 body{
     background-color: #BCECE0;
+    color: #1f2650
+}
+
+h1, h2, h3 {
+    color: #6509a7;
+}
+
+a{
+    color: #F652A0;
+}
+
+header nav a{
+    display: inline-block;
+    color: #09a650;
+    border-top: 4px solid transparent; 
+    transition: border-color 0.2s;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+header nav a:hover{
+    border-top: 4px solid #F652A0; 
+}
+
+::selection{
+    background-color: #fff176;
+}
+
+header{
+    border-top: 4px solid rgba(0, 0, 0, 0.1);
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+header nav{
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline;
 }

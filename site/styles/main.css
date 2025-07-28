@@ -95,3 +95,41 @@ header nav ul{
 header nav ul li{
     display: inline;
 }
+
+td, th {
+    padding: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+thead td, thead th, tfoot td, tfoot th, tbody th{
+    background-color: rgba(0, 0, 0, 0.05)
+}
+
+tbody td{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+tbody tr:nth-child(even) td {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+label{
+    display: block;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+    display: inline;
+}
+
+[type="submit"]{
+    border: none;
+    padding: 1em 3em;
+    color: #fff;
+    background-color: #6509a7;
+    cursor: pointer;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+    background-color: #fda0a0; 
+}
